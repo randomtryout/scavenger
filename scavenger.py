@@ -6,7 +6,7 @@ import tkMessageBox
 def GetValue():
     enter = ent.get()
     if enter == 'Yes':
-        button['bg'] = 'yelloww'
+        button['bg'] = 'yellow'
         ent.delete(0, 'end')
         tkMessageBox.showinfo("Greaat Student!", "The world is better now!")
     else:
